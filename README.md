@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+# 👋 Welcome to Odin Thorsen's GitHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi there! I'm Odin Thorsen, a **Senior Engineer** passionate about building robust, user-friendly solutions and solving complex problems. I bring years of experience in software development, machine learning, and full-stack engineering. Below are some highlights of my journey.
 
-Currently, two official plugins are available:
+## 🔧 Skills & Technologies
+- **Programming Languages:** Java, Kotlin, JavaScript, TypeScript, Python, Ruby, Rust
+- **Frameworks & Tools:** React.js, Spring Framework, Redux, Node.js, Jenkins, Jest, D3.js
+- **Specializations:** Full-stack development, cybersecurity, big data analytics, machine learning
+- **Methodologies:** Agile, CI/CD, TDD, WCAG 2.1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Highlights
+- **Cybersecurity Champion**: Enhanced security for the Norwegian Public Roads Administration by implementing a whitelist mechanism to prevent URL abuse.
+- **Frontend Expertise**: Transitioned applications from Elm to React and developed complex components like drag-and-drop UIs and time sliders.
+- **Big Data Analytics**: Led data analysis projects using XGBoost and Apache Spark to optimize EV performance for Lightning eMotors.
+- **Machine Learning Enthusiast**: Built predictive models from scratch, mastering algorithms like decision trees, neural networks, and more.
 
-## Expanding the ESLint configuration
+## 🎓 Education
+- **Master's in Computer Science** (Northeastern University, 2022)
+- **Bachelor's in Informatics** (University of South-Eastern Norway, 2017)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🌍 Let's Connect!
+- 📫 Email: odin.thorsen@gmail.com
 
-- Configure the top-level `parserOptions` property like this:
+Feel free to explore my repositories and projects. Contributions and discussions are always welcome!
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+*"Code is like humor. When you have to explain it, it’s bad."* — Cory House
